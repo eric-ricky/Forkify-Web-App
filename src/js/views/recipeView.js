@@ -38,7 +38,7 @@ class RecipeView extends View {
   _generateMarkup() {
     return `
     <figure class="recipe__fig">
-      <img src="/FlatBread21of1a180.2ab7a58f.jpg" alt="${
+      <img src="${this._data.image}" alt="${
         this._data.title
       }" class="recipe__img" />
       <h1 class="recipe__title">
